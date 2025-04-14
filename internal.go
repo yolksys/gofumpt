@@ -139,7 +139,7 @@ func format(
 		indent = 1
 	}
 	for range indent {
-		res = append(res, '\t')
+		res = append(res, ' ')
 	}
 
 	// Format the source.
